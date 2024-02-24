@@ -23,7 +23,7 @@ jobs:
           dotnet-version: 8.x
 
       # ⬆️ .NET SDK 설정 액션
-            - name: Restore NuGet packages
+      - name: Restore NuGet packages
         shell: bash
         run: |
           dotnet restore ./devops-in-a-day/ApiApp.sln
